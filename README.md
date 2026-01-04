@@ -2,6 +2,15 @@
 
 MCP server for Obsidian with full Canvas support.
 
+## Prerequisites
+
+**Required:** Install the [Local REST API](https://github.com/ArtiPyHeart/obsidian-local-rest-api) plugin in Obsidian.
+
+Install via [BRAT](https://github.com/TfTHacker/obsidian42-brat):
+1. Install BRAT from Obsidian Community Plugins
+2. Add Beta plugin: `ArtiPyHeart/obsidian-local-rest-api`
+3. Enable the plugin and copy your API key from settings
+
 ## Features
 
 - **Async architecture** - Uses `httpx.AsyncClient` for non-blocking HTTP requests
