@@ -1,6 +1,6 @@
 [project]
 name = "obsidian-api-mcp"
-version = "0.1.4"
+version = "0.1.5"
 description = "MCP server for Obsidian with full Canvas support"
 readme = "README.md"
 requires-python = ">=3.11"
@@ -30,6 +30,7 @@ Repository = "https://github.com/ArtiPyHeart/obsidian-local-rest-api"
 
 [project.scripts]
 obsidian-mcp = "obsidian_mcp:main"
+obsidian-api-mcp = "obsidian_mcp:main"
 
 [build-system]
 requires = ["hatchling"]
